@@ -21,7 +21,7 @@ const Skills = () => {
                     index={index}
                 />
             ))}
-            {Backend_skill.map((image, index) => (
+            {/* {Backend_skill.map((image, index) => (
                 <SkillDataProvider
                     key={index}
                     src={image.Image}
@@ -29,7 +29,7 @@ const Skills = () => {
                     height={image.height}
                     index={index}
                 />
-            ))}
+            ))} */}
         </div>
     </section>
   )
