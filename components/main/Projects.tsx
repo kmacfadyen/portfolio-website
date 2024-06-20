@@ -10,18 +10,22 @@ const Projects = () => {
         <div className='h-full w-full flex flex-col md:flex-row gap-10 px-10'>
         <ProjectCard
           src="/NextWebsite.png"
-          title="Modern Next.js Portfolio"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          title="Advanced Web Applications"
+          // description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          description="Designed and developed a secure web application with authentication, enhancing data protection. Built robust API endpoints for article management."
         />
         <ProjectCard
           src="/CardImage.png"
-          title="Interactive Website Cards"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          title="OpenAI Web Application"
+          // description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          description="Developed a dynamic React application with interactive features, enhancing user engagement across web and mobile platforms."
+
         />
         <ProjectCard
           src="/SpaceWebsite.png"
-          title="Space Themed Website"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          title="Advanced State Management"
+          // description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          description="Engineered a React web page with multiple tabs using React-Redux for real-time updates. Enhanced user interactions and control with Node.js and Axios."
         />
         </div>
     </div>
